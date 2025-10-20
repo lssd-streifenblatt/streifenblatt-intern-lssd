@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LSSD - Patrol Dashboard</title>
+    <title>Los Santos Sheriff Department | LSSD Streifenblatt</title>
     <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
@@ -19,8 +19,8 @@
                 </svg>
             </div>
             <div class="header-title">
-                <h1>LSSD PATROL SYSTEM</h1>
-                <p class="header-subtitle">Active Duty Management</p>
+                <h1>Los Santos Sheriff Department | LSSD Streifenblatt</h1>
+                <p class="header-subtitle">Leitstelle/Streifenblatt</p>
             </div>
         </div>
         <div class="header-right">
@@ -37,7 +37,7 @@
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17 7L15.59 8.41L18.17 11H8V13H18.17L15.59 15.59L17 17L22 12L17 7ZM4 5H12V3H4C2.9 3 2 3.9 2 5V19C2 20.1 2.9 21 4 21H12V19H4V5Z" fill="currentColor"/>
                 </svg>
-                LOGOUT
+                Ausloggen
             </button>
         </div>
     </header>
@@ -45,58 +45,58 @@
     <div class="dashboard-container">
         <aside class="sidebar">
             <div class="stats-panel">
-                <h3>SYSTEM STATUS</h3>
+                <h3>SYSTEMSTATUS</h3>
                 <div class="stat-item">
-                    <span class="stat-label">Active Patrols</span>
+                    <span class="stat-label">Aktive Patrouillen</span>
                     <span class="stat-value" id="activePatrols">0</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-label">On Duty</span>
+                    <span class="stat-label">Im Dienst</span>
                     <span class="stat-value" id="onDutyCount">0</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-label">Available Units</span>
+                    <span class="stat-label">Verfügbare Einheiten</span>
                     <span class="stat-value" id="availableUnits">0</span>
                 </div>
             </div>
 
             <div class="quick-actions">
-                <h3>QUICK ACTIONS</h3>
+                <h3>SCHNELLE AKTIONEN</h3>
                 <button class="action-btn primary" id="newPatrolBtn">
                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="currentColor"/>
                     </svg>
-                    NEW PATROL
+                    NEUE STREIFE
                 </button>
                 <button class="action-btn secondary" id="toggleDutyBtn">
                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20ZM12 6C8.69 6 6 8.69 6 12C6 15.31 8.69 18 12 18C15.31 18 18 15.31 18 12C18 8.69 15.31 6 12 6Z" fill="currentColor"/>
                     </svg>
-                    <span id="dutyBtnText">GO ON DUTY</span>
+                    <span id="dutyBtnText">AUF STREIFE GEHEN</span>
                 </button>
             </div>
 
             <div class="officer-status">
-                <h3>YOUR STATUS</h3>
+                <h3>DEIN STATUS</h3>
                 <div class="status-display">
                     <div class="status-indicator-large">
                         <span class="status-dot-large" id="myStatusDot"></span>
                     </div>
-                    <span class="status-text-large" id="myStatusText">OFF DUTY</span>
+                    <span class="status-text-large" id="myStatusText">AUF STREIFE</span>
                 </div>
             </div>
         </aside>
 
         <main class="main-content">
             <div class="content-header">
-                <h2>ACTIVE PATROLS</h2>
+                <h2>Aktive Streifen</h2>
                 <div class="filter-controls">
                     <select id="statusFilter" class="filter-select">
-                        <option value="all">All Status</option>
-                        <option value="available">Available</option>
-                        <option value="on-patrol">On Patrol</option>
-                        <option value="busy">Busy</option>
-                        <option value="off-duty">Off Duty</option>
+                        <option value="all">Alle Status</option>
+                        <option value="available">Verfügbar</option>
+                        <option value="on-patrol">Im Einsatz</option>
+                        <option value="busy">Beschäftigt</option>
+                        <option value="off-duty">Außer Dienst</option>
                     </select>
                 </div>
             </div>
@@ -106,8 +106,8 @@
                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12 2L4 5V11.09C4 16.14 7.41 20.85 12 22C16.59 20.85 20 16.14 20 11.09V5L12 2Z" stroke="currentColor" stroke-width="2" fill="none"/>
                     </svg>
-                    <h3>No Active Patrols</h3>
-                    <p>Create a new patrol to get started</p>
+                    <h3>Keine aktiven Streifen</h3>
+                    <p>Erstellen Sie eine neue Streife, um zu beginnen</p>
                 </div>
             </div>
         </main>
@@ -117,7 +117,7 @@
         <div class="modal-overlay"></div>
         <div class="modal-content">
             <div class="modal-header">
-                <h3 id="modalTitle">CREATE NEW PATROL</h3>
+                <h3 id="modalTitle">NEUE STREIFE ERSTELLEN</h3>
                 <button class="modal-close" id="closeModal">&times;</button>
             </div>
             <form id="patrolForm" class="modal-form">
@@ -125,34 +125,34 @@
 
                 <div class="form-row">
                     <div class="form-group">
-                        <label for="patrolCallsign">CALLSIGN</label>
-                        <input type="text" id="patrolCallsign" name="callsign" placeholder="e.g., L-1, L-2" required>
+                        <label for="patrolCallsign">Streifen Name</label>    
+                        <input type="text" id="patrolCallsign" name="callsign" placeholder="z.B.: L-1, L-2" required>
                     </div>
                     <div class="form-group">
                         <label for="patrolStatus">STATUS</label>
                         <select id="patrolStatus" name="status" required>
-                            <option value="available">Available</option>
-                            <option value="on-patrol">On Patrol</option>
-                            <option value="busy">Busy</option>
-                            <option value="off-duty">Off Duty</option>
+                            <option value="available">Verfügbar</option>
+                            <option value="on-patrol">Im Einsatz</option>
+                            <option value="busy">Beschäftigt</option>
+                            <option value="off-duty">Außer Dienst</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="patrolLocation">CURRENT LOCATION</label>
-                    <input type="text" id="patrolLocation" name="location" placeholder="e.g., Sandy Shores, Paleto Bay" required>
+                    <label for="patrolLocation">AKTUELLE POSITION</label>
+                    <input type="text" id="patrolLocation" name="location" placeholder="z.B.: Sandy Shores, Paleto Bay" required>
                 </div>
 
                 <div class="form-group">
-                    <label for="patrolNotes">NOTES</label>
-                    <textarea id="patrolNotes" name="notes" rows="3" placeholder="Additional information..."></textarea>
+                    <label for="patrolNotes">NOTIZEN</label>
+                    <textarea id="patrolNotes" name="notes" rows="3" placeholder="Zusätzliche Informationen..."></textarea>
                 </div>
 
                 <div class="form-actions">
-                    <button type="button" class="btn-secondary" id="cancelBtn">CANCEL</button>
+                    <button type="button" class="btn-secondary" id="cancelBtn">ABBRECHEN</button>
                     <button type="submit" class="btn-primary">
-                        <span id="submitBtnText">CREATE PATROL</span>
+                        <span id="submitBtnText">STREIFE ERSTELLEN</span>
                     </button>
                 </div>
             </form>
