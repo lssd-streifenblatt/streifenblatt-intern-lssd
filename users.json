@@ -2,27 +2,66 @@
   "users": [
     {
       "id": "1",
-      "username": "sheriff01",
-      "password": "lssd2024",
-      "name": "John Mitchell",
-      "rank": "Sheriff",
-      "badgeNumber": "001"
+      "username": "LennyKurzke",
+      "password": "jslfjnm,",
+      "name": "Lenny Kurzke",
+      "rank": "Chief of Sheriff"
     },
     {
       "id": "2",
-      "username": "deputy01",
-      "password": "deputy123",
-      "name": "Sarah Connor",
-      "rank": "Deputy",
-      "badgeNumber": "045"
+      "username": "FelixKurzke",
+      "password": "iauswm",
+      "name": "Felix Kurzke",
+      "rank": "Assistant Chief"
     },
     {
-      "id": "3",
-      "username": "sergeant01",
-      "password": "sarge456",
-      "name": "Mike Rodriguez",
-      "rank": "Sergeant",
-      "badgeNumber": "023"
+      "id": "19",
+      "username": "MaxKrieger",
+      "password": "nwunfp",
+      "name": "Mas Krieger",
+      "rank": "Sergeant 1"
+    }
+    {
+      "id": "20",
+      "username": "HerrisonBerger",
+      "password": "j12o3u0",
+      "name": "Herrison Berger",
+      "rank": "Sheriff 3"
+    }
+    {
+      "id": "24",
+      "username": "SinanYilmaz",
+      "password": "juasd986",
+      "name": "Sinan Yilmaz",
+      "rank": "Sheriff 2"
+    }
+    {
+      "id": "38",
+      "username": "JulesHubsi",
+      "password": "lojkf879",
+      "name": "Jules Hubsi",
+      "rank": "Rekrut"
+    }
+    {
+      "id": "39",
+      "username": "BenxBerger",
+      "password": "f17hfs",
+      "name": "Benx Berger",
+      "rank": "Rekrut"
+    }
+    {
+      "id": "14",
+      "username": "PaulWalker",
+      "password": "f2109hs",
+      "name": "Paul Walker",
+      "rank": "Sergeant 2"
+    }
+    {
+      "id": "11",
+      "username": "ArjenMaurer",
+      "password": "ljkp1230ssfd",
+      "name": "Arjen Maurer",
+      "rank": "Lieutenant"
     }
   ]
 }
