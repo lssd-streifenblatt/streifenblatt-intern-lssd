@@ -1,0 +1,49 @@
+{
+  "vehicles": [
+    {
+      "id": "veh_001",
+      "callsign": "1-Adam-12",
+      "type": "Patrol Car",
+      "model": "Police Cruiser",
+      "status": "available",
+      "assignedTo": null,
+      "location": "Station"
+    },
+    {
+      "id": "veh_002",
+      "callsign": "1-Adam-15",
+      "type": "Patrol Car",
+      "model": "Police Cruiser",
+      "status": "available",
+      "assignedTo": null,
+      "location": "Station"
+    },
+    {
+      "id": "veh_003",
+      "callsign": "1-King-1",
+      "type": "K9 Unit",
+      "model": "Police SUV",
+      "status": "available",
+      "assignedTo": null,
+      "location": "Station"
+    },
+    {
+      "id": "veh_004",
+      "callsign": "Air-1",
+      "type": "Helicopter",
+      "model": "Police Helicopter",
+      "status": "available",
+      "assignedTo": null,
+      "location": "Helipad"
+    },
+    {
+      "id": "veh_005",
+      "callsign": "1-Adam-20",
+      "type": "Patrol Car",
+      "model": "Police Cruiser",
+      "status": "maintenance",
+      "assignedTo": null,
+      "location": "Garage"
+    }
+  ]
+}
