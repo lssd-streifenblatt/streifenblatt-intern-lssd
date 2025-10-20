@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "sheriff01",
+      "password": "lssd2024",
+      "name": "John Mitchell",
+      "rank": "Sheriff",
+      "badgeNumber": "001"
+    },
+    {
+      "id": "2",
+      "username": "deputy01",
+      "password": "deputy123",
+      "name": "Sarah Connor",
+      "rank": "Deputy",
+      "badgeNumber": "045"
+    },
+    {
+      "id": "3",
+      "username": "sergeant01",
+      "password": "sarge456",
+      "name": "Mike Rodriguez",
+      "rank": "Sergeant",
+      "badgeNumber": "023"
+    }
+  ]
+}
