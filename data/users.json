@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "test",
+      "username": "test",
+      "password": "test",
+      "name": "Chief Anderson",
+      "badge": "1001",
+      "rank": "Sheriff",
+      "role": "admin",
+      "status": "offline",
+      "lastLogin": null,
+      "activePatrol": null,
+      "totalHours": 0
+    },
+    {
+      "id": "user_002",
+      "username": "deputy1",
+      "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "name": "Deputy Rodriguez",
+      "badge": "2045",
+      "rank": "Senior Deputy",
+      "role": "employee",
+      "status": "offline",
+      "lastLogin": null,
+      "activePatrol": null,
+      "totalHours": 0
+    },
+    {
+      "id": "user_003",
+      "username": "deputy2",
+      "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "name": "Deputy Chen",
+      "badge": "2087",
+      "rank": "Deputy",
+      "role": "employee",
+      "status": "offline",
+      "lastLogin": null,
+      "activePatrol": null,
+      "totalHours": 0
+    },
+    {
+      "id": "user_004",
+      "username": "supervisor",
+      "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "name": "Sergeant Williams",
+      "badge": "1505",
+      "rank": "Sergeant",
+      "role": "supervisor",
+      "status": "offline",
+      "lastLogin": null,
+      "activePatrol": null,
+      "totalHours": 0
+    }
+  ]
+}
