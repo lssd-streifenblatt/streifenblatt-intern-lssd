@@ -1,1 +1,0 @@
-# streifenblatt-intern-lssd
