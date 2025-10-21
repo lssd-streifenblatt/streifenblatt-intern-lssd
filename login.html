@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LSSD - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="logo-section">
+                <div class="badge-icon"></div>
+                <h1>LOS SANTOS SHERIFF DEPARTMENT</h1>
+                <div class="divider"></div>
+            </div>
+            <form id="loginForm" class="login-form">
+                <div class="input-group">
+                    <label for="username">BENUTZERNAME</label>
+                    <input type="text" id="username" name="username" required autocomplete="off">
+                </div>
+                <div class="input-group">
+                    <label for="password">PASSWORT</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-btn">
+                    <span>ANMELDEN</span>
+                    <div class="btn-glow"></div>
+                </button>
+            </form>
+            <div id="errorMsg" class="error-msg"></div>
+        </div>
+        <div class="background-grid"></div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
